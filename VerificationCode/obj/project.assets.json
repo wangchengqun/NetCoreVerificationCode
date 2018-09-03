@@ -11771,11 +11771,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\验证码\\VerificationCode\\VerificationCode\\VerificationCode.csproj",
+      "projectUniqueName": "D:\\Code\\VerificationCode\\VerificationCode\\VerificationCode.csproj",
       "projectName": "VerificationCode",
-      "projectPath": "D:\\验证码\\VerificationCode\\VerificationCode\\VerificationCode.csproj",
+      "projectPath": "D:\\Code\\VerificationCode\\VerificationCode\\VerificationCode.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\验证码\\VerificationCode\\VerificationCode\\obj\\",
+      "outputPath": "D:\\Code\\VerificationCode\\VerificationCode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\admin\\.dotnet\\NuGetFallbackFolder",

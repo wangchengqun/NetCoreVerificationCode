@@ -12,26 +12,25 @@ namespace VerificationCode.Code
     {
 
         /// <summary>  
-        /// 汉字
+        /// 随机汉字
         /// </summary>  
-        /// <param name="VcodeNum">参数是随机数的位数</param>  
-        /// <returns>返回一个随机数字符串</returns>  
-        private static string RndNumHanZi(int VcodeNum)
+        /// <param name="number"></param>  
+        /// <returns></returns>  
+        private static string RandomHanZi(int number)
         {
-            var Vchar = "天地玄黄宇宙洪荒日月盈昃辰宿列张寒来暑往秋收冬藏闰余成岁律吕调阳云腾致雨露结为霜金生丽水玉出昆冈剑号巨阙珠称夜光果珍李柰菜重芥姜海咸河淡鳞潜羽翔龙师火帝鸟官人皇始制文字乃服衣裳推位让国有虞陶唐吊民伐罪周发殷汤坐朝问道垂拱平章爱育黎首臣伏戎羌遐迩体率宾归王";
-            char[] VcArray = Vchar.ToArray();
-            string code = "";
+            var str = "天地玄黄宇宙洪荒日月盈昃辰宿列张寒来暑往秋收冬藏闰余成岁律吕调阳云腾致雨露结为霜金生丽水玉出昆冈剑号巨阙珠称夜光果珍李柰菜重芥姜海咸河淡鳞潜羽翔龙师火帝鸟官人皇始制文字乃服衣裳推位让国有虞陶唐吊民伐罪周发殷汤坐朝问道垂拱平章爱育黎首臣伏戎羌遐迩体率宾归王";
+            char[] str_char_arrary = str.ToArray();
             Random rand = new Random();
             HashSet<string> hs = new HashSet<string>();
             bool randomBool = true;
             while (randomBool)
             {
-                if (hs.Count == VcodeNum)
+                if (hs.Count == number)
                     break;
-                int rand_number = rand.Next(VcArray.Length);
-                hs.Add(VcArray[rand_number].ToString());
+                int rand_number = rand.Next(str_char_arrary.Length);
+                hs.Add(str_char_arrary[rand_number].ToString());
             }
-            code = string.Join("", hs);
+            string code = string.Join("", hs);
             return code;
         }
 
@@ -43,12 +42,12 @@ namespace VerificationCode.Code
         public static Task<VerificationCodeModel> CreateHanZi(int numbers = 5, int _height = 200, int _width = 200)
         {
             var imageModel = new VerificationCodeModel();
-            string code = RndNumHanZi(numbers);
+            string code = RandomHanZi(numbers);
             Bitmap Img = null;
             Graphics g = null;
             MemoryStream ms = null;
             Random random = new Random();
-           
+
             Color[] color_Array = { Color.Black, Color.DarkBlue, Color.Green, Color.Orange, Color.Brown, Color.DarkCyan, Color.Purple };
             string[] fonts = { "lnk Free", "Segoe Print", "Comic Sans MS", "MV Boli", "华文行楷" };
             string _base = Environment.CurrentDirectory + "\\wwwroot\\verificationcodeImage\\";
