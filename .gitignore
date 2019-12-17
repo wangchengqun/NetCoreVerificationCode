@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/VerificationCode/bin/Debug/netcoreapp3.1
+/VerificationCode/obj/Release/netcoreapp3.1
