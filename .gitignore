@@ -1,7 +1,0 @@
-﻿################################################################################
-# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
-################################################################################
-
-/.vs
-/VerificationCode/bin/Debug/netcoreapp3.1
-/VerificationCode/obj/Release/netcoreapp3.1

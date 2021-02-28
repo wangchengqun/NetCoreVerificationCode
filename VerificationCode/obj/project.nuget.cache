@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0IB5GYgaAGeIswCn1dnqF5di5uCXK2EUJv7kQNLjKyHWwFAIqXsG+hhBjlK93cM/BLAmB72CMx1pyUgZRNRFHQ==",
+  "success": true,
+  "projectFilePath": "D:\\Code验证码\\验证码\\NetCoreVerificationCode\\VerificationCode\\VerificationCode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
