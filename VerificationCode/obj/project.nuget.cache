@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0IB5GYgaAGeIswCn1dnqF5di5uCXK2EUJv7kQNLjKyHWwFAIqXsG+hhBjlK93cM/BLAmB72CMx1pyUgZRNRFHQ==",
+  "dgSpecHash": "KzmWfbxSJBrYkC+ziphJUcAQvLYCP6s5CYPhWebjSmYSqHnHjcXkJXZN7XjJ4DLs76R5awvDPYQyxpUvYlEfhA==",
   "success": true,
   "projectFilePath": "D:\\Code验证码\\验证码\\NetCoreVerificationCode\\VerificationCode\\VerificationCode.csproj",
   "expectedPackageFiles": [
